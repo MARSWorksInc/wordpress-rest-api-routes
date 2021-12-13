@@ -1,0 +1,21 @@
+{
+  "name": "marspress/rest-api-endpoint",
+  "description": "Utility package to create custom REST API routes in WordPress.",
+  "type": "library",
+  "license": "GPL-2.0",
+  "autoload": {
+    "psr-4": {
+      "MarsPress\\RestAPI\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MARSWorks Inc",
+      "email": "wordpress@marsworks.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4"
+  }
+}
