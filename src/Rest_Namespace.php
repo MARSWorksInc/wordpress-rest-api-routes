@@ -201,9 +201,9 @@ if( ! class_exists( 'Rest_Namespace' ) )
          * @class \MarsPress\RestAPI\Rest_Namespace
          * @function add_endpoints
          * @param Endpoint[] $_endpoints
-         * @return void
+         * @return Rest_Namespace
          */
-        public function add_endpoints( \MarsPress\RestAPI\Endpoint ...$_endpoints )
+        public function add_endpoints( \MarsPress\RestAPI\Endpoint ...$_endpoints ): Rest_Namespace
         {
 
             if( ! isset( $this->endpoints ) ){
@@ -259,6 +259,8 @@ if( ! class_exists( 'Rest_Namespace' ) )
                 }
 
             }
+
+            return $this;
 
         }
 
