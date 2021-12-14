@@ -1,6 +1,6 @@
-# MarsPress FrontEndRoute
+# MarsPress REST API Endpoints
 ### Installation
-Require the composer package in your composer.json with `marspress/rest-api-route` with minimum `dev-main` OR run `composer require marspress/rest-api-route`
+Require the composer package in your composer.json with `marspress/rest-api-endpoint` with minimum `dev-main` OR run `composer require marspress/rest-api-endpoint`
 
 ### Resources
 * https://developer.wordpress.org/rest-api/extending-the-rest-api/adding-custom-endpoints/
